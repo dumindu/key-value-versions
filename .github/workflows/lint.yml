@@ -16,8 +16,14 @@ permissions:
 jobs:
   quality:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./key-value-versions-app
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
