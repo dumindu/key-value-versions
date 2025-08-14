@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_CNaCR7kH2n
+createdAt: 2025-08-14T02:02:00.846030
+updatedAt: 2025-08-14T02:22:20.622911
+workspaceId: wk_pXtKTCK37P
+folderId: fl_7jBQGgGjBe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: VtkN7jzb7H
+- enabled: true
+  name: ''
+  value: ''
+  id: Pasbf2wjvr
+method: GET
+name: Get One
+sortPriority: 1000.0
+url: ${[ baseURL ]}/api/v1/keys/001
+urlParameters:
+- enabled: true
+  name: timestamp
+  value: ''
+  id: null

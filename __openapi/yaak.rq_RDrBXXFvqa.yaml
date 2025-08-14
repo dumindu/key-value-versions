@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_RDrBXXFvqa
+createdAt: 2025-08-14T01:58:17.567679
+updatedAt: 2025-08-14T02:20:02.274764
+workspaceId: wk_pXtKTCK37P
+folderId: fl_AYuvvA9B6Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "grant_type": "password",
+      "client_id": "01989503-1ce8-735f-a487-0729ef4f1d1b",
+      "client_secret": "WqkuICsupCfBL1xLt71TfBSaaLVlaiTd0iMSudpu",
+      "username": "user@email.com",
+      "password": "some_password",
+      "scope": "*"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: content-type
+  value: application/json
+  id: btBsC38TEc
+- enabled: true
+  name: Accept
+  value: application/json
+  id: c7EkdIH42j
+- enabled: true
+  name: ''
+  value: ''
+  id: A06nztWNIz
+method: POST
+name: Access/ Refresh Tokens
+sortPriority: 1000.0
+url: ${[ baseURL ]}/oauth/token
+urlParameters: []
