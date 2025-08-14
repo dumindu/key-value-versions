@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_FsDH4S57vC
+createdAt: 2025-08-14T02:02:13.198085
+updatedAt: 2025-08-14T02:26:28.674530
+workspaceId: wk_pXtKTCK37P
+folderId: fl_7jBQGgGjBe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: UUnS9538xp
+- enabled: true
+  name: Accept
+  value: application/json
+  id: vs2IVkEb9k
+- enabled: true
+  name: ''
+  value: ''
+  id: sE3RwHnjIW
+method: GET
+name: Get One - History
+sortPriority: 3000.0
+url: ${[ baseURL ]}/api/v1/keys/001/history
+urlParameters: []

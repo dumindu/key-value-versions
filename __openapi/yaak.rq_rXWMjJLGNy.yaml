@@ -1,0 +1,35 @@
+type: http_request
+model: http_request
+id: rq_rXWMjJLGNy
+createdAt: 2025-08-14T02:01:24.991350
+updatedAt: 2025-08-14T02:21:52.130974
+workspaceId: wk_pXtKTCK37P
+folderId: fl_7jBQGgGjBe
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "key": "001",
+      "value": "value 004"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: content-type
+  value: application/json
+  id: NItvntX5xt
+- enabled: true
+  name: Accept
+  value: application/json
+  id: fBGqrCNKY9
+- enabled: true
+  name: ''
+  value: ''
+  id: xISgmUg8mn
+method: POST
+name: Create New
+sortPriority: 0.0
+url: ${[ baseURL ]}/api/v1/keys
+urlParameters: []

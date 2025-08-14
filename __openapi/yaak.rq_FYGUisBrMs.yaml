@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_FYGUisBrMs
+createdAt: 2025-08-14T01:59:47.240155
+updatedAt: 2025-08-14T02:26:50.552287
+workspaceId: wk_pXtKTCK37P
+folderId: fl_AYuvvA9B6Z
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "name": "User Name",
+      "email": "user@email.com",
+      "password": "some_password",
+      "password_confirmation": "some_password"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: content-type
+  value: application/json
+  id: gNNDW3M7Zi
+- enabled: true
+  name: Accept
+  value: application/json
+  id: CdPIjtR4R4
+- enabled: true
+  name: ''
+  value: ''
+  id: AY69dnub3r
+method: POST
+name: User Register
+sortPriority: 0.0
+url: ${[ baseURL ]}/api/v1/register
+urlParameters: []

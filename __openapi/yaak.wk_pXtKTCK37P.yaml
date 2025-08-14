@@ -1,0 +1,14 @@
+type: workspace
+model: workspace
+id: wk_pXtKTCK37P
+createdAt: 2025-08-14T01:53:14.776098
+updatedAt: 2025-08-14T02:05:03.370060
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: KeyValueVersion
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0

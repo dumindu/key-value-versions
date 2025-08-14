@@ -1,0 +1,20 @@
+type: folder
+model: folder
+id: fl_7jBQGgGjBe
+createdAt: 2025-08-14T02:00:33.259695
+updatedAt: 2025-08-14T02:24:28.326652
+workspaceId: wk_pXtKTCK37P
+folderId: fl_AYuvvA9B6Z
+authentication:
+  accessTokenUrl: ${[ baseURL ]}/oauth/token
+  clientId: ${[ PassportClientID ]}
+  clientSecret: ${[ PassportClientSecret ]}
+  grantType: password
+  password: ${[ userPassword ]}
+  scope: '*'
+  username: ${[ userEmail ]}
+authenticationType: oauth2
+description: ''
+headers: []
+name: Keys
+sortPriority: 2000.0

@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_YHegLmJdhS
+createdAt: 2025-08-14T02:01:45.158897
+updatedAt: 2025-08-14T02:22:11.289767
+workspaceId: wk_pXtKTCK37P
+folderId: fl_7jBQGgGjBe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: MN9XthrrWt
+- enabled: true
+  name: ''
+  value: ''
+  id: UFtuqFnmIK
+method: GET
+name: Get All
+sortPriority: 500.0
+url: ${[ baseURL ]}/api/v1/keys
+urlParameters: []
