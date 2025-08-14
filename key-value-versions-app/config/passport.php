@@ -31,6 +31,19 @@ return [
     'public_key' => env('PASSPORT_PUBLIC_KEY'),
 
     /*
+   |--------------------------------------------------------------------------
+   | Client ID and Secret
+   |--------------------------------------------------------------------------
+   |
+   | Client ID and Secret
+   |
+   */
+
+    'client_id' => env('PASSPORT_PASSWORD_CLIENT_ID'),
+
+    'client_secret' => env('PASSPORT_PASSWORD_CLIENT_SECRET'),
+
+    /*
     |--------------------------------------------------------------------------
     | Passport Database Connection
     |--------------------------------------------------------------------------

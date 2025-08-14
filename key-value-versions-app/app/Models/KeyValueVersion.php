@@ -2,11 +2,14 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class KeyValueVersion extends Model
 {
     protected $table = 'key_value_versions';
+
+    use HasFactory;
 
     protected $fillable = [
         'key',
