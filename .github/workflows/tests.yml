@@ -51,5 +51,8 @@ jobs:
       - name: Generate Application Key
         run: php artisan key:generate
 
+      - name: Generate OAuth2 Keys
+        run: php artisan passport:keys
+
       - name: Tests
         run: ./vendor/bin/pest
